@@ -16,5 +16,5 @@ RUN curl -O http://archive.apache.org/dist/activemq/apache-activemq/$ACTIVEMQ_VE
 	&& tar -xzmf $ACTIVEMQ-bin.tar.gz -C $ACTIVEMQ_ROOT \
     && rm -f $ACTIVEMQ-bin.tar.gz
     
-EXPOSE 61616 8161
+EXPOSE 61612 61613 61616 8161 
 CMD $ACTIVEMQ_HOME/bin/activemq console
