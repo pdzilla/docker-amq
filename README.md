@@ -2,7 +2,7 @@ Docker image of to run Apache ActiveMQ (defaults to verion 5.8.0).
 Please fork and contribute via PR.
 
 # Usage
-This Dockerfile with all default values will build a base container running Apache ActiveMQ version 5.8.0 with OpenJDK 8u40.
+This Dockerfile with all default values will build a base container running Apache ActiveMQ version 5.8.0 with OpenJDK 7.
 
 ## Building
 `docker build [--rm=true] [--tag=<your-tag>] [--file=<relative-path-to-this-Dockerfile>]`
